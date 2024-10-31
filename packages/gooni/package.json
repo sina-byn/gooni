@@ -1,6 +1,6 @@
 {
   "name": "gooni",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI for installing custom components",
   "main": "dist/cli.js",
   "bin": {
@@ -15,21 +15,22 @@
     "cli",
     "component",
     "react",
-    "mui",
+    "shadcn",
     "auto-complete",
     "autocomplete",
     "select",
-    "mui-autocomplete",
-    "mui-select",
-    "mui-autocomplete-select",
-    "mui-select-autocomplete",
-    "mui-autocomplete-select",
-    "mui-select-autocomplete",
-    "mui-autocomplete-select",
-    "mui-select-autocomplete",
-    "mui-autocomplete-select",
-    "mui-select-autocomplete",
-    "material-ui"
+    "filterable-option-list",
+    "shadcn-autocomplete",
+    "shadcn-select",
+    "shadcn-autocomplete-select",
+    "shadcn-select-autocomplete",
+    "shadcn-autocomplete-select",
+    "shadcn-select-autocomplete",
+    "shadcn-autocomplete-select",
+    "shadcn-select-autocomplete",
+    "shadcn-autocomplete-select",
+    "shadcn-select-autocomplete",
+    "shadcn-ui"
   ],
   "author": {
     "name": "Hasan Ardestani",
@@ -50,10 +51,6 @@
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "@emotion/react": "^11.11.5",
-    "@emotion/styled": "^11.11.5",
-    "@mui/material": "^5.0.0",
-    "iconsax-react": "^0.0.8",
     "react": "^17.0.0 || ^18.0.0"
   }
 }

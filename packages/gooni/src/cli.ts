@@ -66,10 +66,11 @@ program
       const packageJson = await fs.readJson("package.json");
       const dependencies = [
         "react",
-        "iconsax-react",
-        "@mui/material",
-        "@emotion/react",
-        "@emotion/styled",
+        "lucide-react",
+        "@radix-ui/react-popover",
+        "@radix-ui/react-checkbox",
+        "@radix-ui/react-separator",
+        "@radix-ui/react-scroll-area"
       ];
       const missingDeps = dependencies.filter(
         (dep) => !packageJson.dependencies[dep]

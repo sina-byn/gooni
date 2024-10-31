@@ -1,73 +1,49 @@
-# Turborepo Design System starter with Changesets
 
-This is an official React design system starter powered by Turborepo. Versioning and package publishing is handled by [Changesets](https://github.com/changesets/changesets) and fully automated with GitHub Actions.
+<p align="center">
+  <a href="https://gooni.vercel.app/" rel="noopener" target="_blank"><img width="150" height="133" src="PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDYyZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1wYWNrYWdlLW9wZW4iPjxwYXRoIGQ9Ik0xMiAyMnYtOSIvPjxwYXRoIGQ9Ik0xNS4xNyAyLjIxYTEuNjcgMS42NyAwIDAgMSAxLjYzIDBMMjEgNC41N2ExLjkzIDEuOTMgMCAwIDEgMCAzLjM2TDguODIgMTQuNzlhMS42NTUgMS42NTUgMCAwIDEtMS42NCAwTDMgMTIuNDNhMS45MyAxLjkzIDAgMCAxIDAtMy4zNnoiLz48cGF0aCBkPSJNMjAgMTN2My44N2EyLjA2IDIuMDYgMCAwIDEtMS4xMSAxLjgzbC02IDMuMDhhMS45MyAxLjkzIDAgMCAxLTEuNzggMGwtNi0zLjA4QTIuMDYgMi4wNiAwIDAgMSA0IDE2Ljg3VjEzIi8" alt="gooni logo"></a>
+</p>
 
-## Using this example
+<h1 align="center">Gooni</h1>
+<p align="center">Beautifully designed components that you can copy and paste into your apps.</p>
+<div align="center">
 
-Run the following command:
+Gooni is a CLI-based library that allows you to add pre-built components directly to your project without any extra installation or dependencies. Similar to ShadCN UI, Gooni makes it easy to integrate high-quality components by simply copying the code into your project.
+</div>
 
-```sh
-npx create-turbo@latest -e with-changesets
+## Features
+- **Direct Integration**: Add components with a single command.
+- **No Installation Needed**: Copy components directly to your project without additional dependencies.
+- **Flexible Usage**: Customize as needed with no constraints.
+
+## Installation and Usage
+
+To add a component using Gooni, use the following command:
+
+```bash
+npx gooni@latest add <component-name>
 ```
 
-## What's inside?
+Replace `<component-name>` with the name of the component you'd like to add.
 
-This Turborepo includes the following:
+### Example
 
-### Apps and Packages
+To add a filterable-option-list component, you can use:
 
-- `docs`: A placeholder documentation site powered by [Next.js](https://nextjs.org/)
-- `@acme/core`: core React components
-- `@acme/utils`: shared React utilities
-- `@acme/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
-- `@acme/eslint-config`: ESLint preset
-
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Useful commands
-
-- `yarn build` - Build all packages and the docs site
-- `yarn dev` - Develop all packages and the docs site
-- `yarn lint` - Lint all packages
-- `yarn changeset` - Generate a changeset
-- `yarn clean` - Clean up all `node_modules` and `dist` folders (runs each package's clean script)
-
-### Changing the npm organization scope
-
-The npm organization scope for this design system starter is `@acme`. To change this, it's a bit manual at the moment, but you'll need to do the following:
-
-- Rename folders in `packages/*` to replace `acme` with your desired scope
-- Search and replace `acme` with your desired scope
-- Re-run `yarn install`
-
-## Versioning and Publishing packages
-
-Package publishing has been configured using [Changesets](https://github.com/changesets/changesets). Please review their [documentation](https://github.com/changesets/changesets#documentation) to familiarize yourself with the workflow.
-
-This example comes with automated npm releases setup in a [GitHub Action](https://github.com/changesets/action). To get this working, you will need to create an `NPM_TOKEN` and `GITHUB_TOKEN` in your repository settings. You should also install the [Changesets bot](https://github.com/apps/changeset-bot) on your GitHub repository as well.
-
-For more information about this automation, refer to the official [changesets documentation](https://github.com/changesets/changesets/blob/main/docs/automating-changesets.md)
-
-### npm
-
-If you want to publish package to the public npm registry and make them publicly available, this is already setup.
-
-To publish packages to a private npm organization scope, **remove** the following from each of the `package.json`'s
-
-```diff
-- "publishConfig": {
--  "access": "public"
-- },
+```bash
+npx gooni@latest add filterable-option-list
 ```
 
-### GitHub Package Registry
+This will copy the code for the button component directly into your project for immediate use.
 
-See [Working with the npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#publishing-a-package-using-publishconfig-in-the-packagejson-file)
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Enjoy building with Gooni! 🎉
+
