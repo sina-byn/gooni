@@ -90,7 +90,7 @@ export async function Hero() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/typehero/typehero"
+                href="https://github.com/hsnards/gooni"
               >
                 <GitHubLogoIcon className="mr-2 h-4 w-4" />
                 GitHub
