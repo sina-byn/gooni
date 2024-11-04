@@ -1,4 +1,5 @@
-# Gooni
+
+# Gooni [![NPM version](https://img.shields.io/npm/v/gooni.svg?style=flat)](https://www.npmjs.com/package/gooni) [![NPM monthly downloads](https://img.shields.io/npm/dm/gooni.svg?style=flat)](https://npmjs.org/package/gooni) [![NPM total downloads](https://img.shields.io/npm/dt/gooni.svg?style=flat)](https://npmjs.org/package/gooni)
 
 Gooni is a powerful CLI tool for installing custom components in your React projects. Similar to shadcn ui, it allows you to easily copy and integrate a set of components into your project.
 
